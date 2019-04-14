@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contactWithMeActivity"
+    android:orientation="vertical"
+    android:background="@drawable/about" >
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="213dp"
+        android:layout_marginEnd="321dp"
+        android:src="@drawable/ic_email" />
+
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="276dp"
+        android:background="@drawable/buttonstyle"
+        android:onClick="email"
+        android:text="Email"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="218dp"
+        android:layout_marginEnd="212dp"
+        android:src="@drawable/ic_phone" />
+
+    <Button
+        android:id="@+id/btnPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="277dp"
+        android:background="@drawable/buttonstyle"
+        android:onClick="dial"
+        android:text="Phone"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="98dp"
+        android:src="@drawable/ic_camera" />
+
+    <Button
+        android:id="@+id/btnWebPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="277dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/buttonstyle"
+        android:onClick="openWebBage"
+        android:text="Instagram"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginBottom="104dp"
+        android:background="@drawable/buttonstyle"
+        android:onClick="clickToBack"
+        android:text="To Back Home!..."
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>
+
